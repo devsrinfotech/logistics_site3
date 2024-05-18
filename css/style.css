@@ -13897,7 +13897,7 @@ ol.commentlist li::after {
 /*____HEADER STYLE 2 (HEADER TRANSPERENT)____*/
 
 .header-style-2 .main-bar {position: absolute;background: none;}
-.header-style-2 .header-nav .nav>li>a {color: #fff;display: block;}
+.header-style-2 .header-nav .nav>li>a {color: #000;display: block;}
 
 @media only screen and (max-width:991px) {
 	.header-style-2 .header-nav .nav>li>a {	color: #777777;}
@@ -13915,8 +13915,8 @@ ol.commentlist li::after {
 
 /*____HEADER 2 FIXED____*/
 
-.header-style-2 .is-fixed .main-bar {position: fixed; border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
-.header-style-2 .is-fixed.color-fill .main-bar {background: #1a1a1a;}
+.header-style-2 .is-fixed .main-bar {position: fixed; border-bottom: 1px solid rgba(255, 255, 255, 0.2); background: #fff;}
+.header-style-2 .is-fixed.color-fill .main-bar {background: #fff;}
 
 
 /*____HEADER STYLE 1____*/
